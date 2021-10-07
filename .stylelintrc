@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "stylelint-config-recommended-scss",
+    "./node_modules/prettier-stylelint/config.js"
+  ],
+  "rules": {
+    "no-descending-specificity": null,
+    "max-nesting-depth": 4,
+    "selector-type-no-unknown": [
+      true,
+      {
+        "ignoreTypes": ["/^[a-zA-Z]([a-zA-Z0-9]*-[a-zA-Z0-9]+)+/"]
+      }
+    ]
+  },
+  "ignoreFiles": ["./dist/css/*.css"]
+}
