@@ -8,6 +8,8 @@ Esta documentación está dirigida al desarrollador que revise y valore lo reali
 
 Para realizar la prueba he creado un boilerplate basado en Webpack 5 basado en PostCSS y Sass con un servidor de desarrollo (hot reloading) y una compilación de producción optimizada.
 
+El código creado se encuentra en la carpeta **dist**.
+
 ---
 
 **Anotaciones**
@@ -20,6 +22,7 @@ Para realizar la prueba he creado un boilerplate basado en Webpack 5 basado en P
 - He realizado algunos cambios por propia iniciativa para mejorar un poco el diseño del mismo.
 - Algunos comportamientos (responsive, hover, ...) aplicados son fruto de la experiencia en otros desarrollos.
 - El código puede no estar optimizado respecto al DOM por exceso de elementos pero mejora la semántica del HTML.
+- Me he tomado la libertad de no minificar el código para os resulta más legible.
 
 ---
 
